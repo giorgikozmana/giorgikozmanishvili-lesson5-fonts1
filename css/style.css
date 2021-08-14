@@ -1,0 +1,95 @@
+main{
+  width: 80%;
+  display: inline-block;
+  margin-left: 10%;
+}
+.menu-section h3 {
+  color: blue;
+}
+.menu-items{
+  width: 100%;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-item {
+  height: 250px;
+  width: 45%;
+  display: inline-block;
+}
+.menu-item-image {
+  height: 100%;
+  width: 250px;
+  background-color: black;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-item-content-aligner {
+  width: calc(100% - 250px);
+  height: 250px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-item-content{
+  width: 100%;
+}
+.menu-item-content p{
+  padding: 5px;
+}
+
+.blog-section h3{
+  color:#5863f8;
+}
+.blog-items{
+  width: 100%;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-item{
+  width: 30%;
+  min-height: 450px;
+  display: inline-block;
+}
+.blog-item-image{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-item-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.blog-item-content p{
+  margin:0;
+  padding: 5px;
+  text-align: center;
+}
+.georgian-absolute1 {
+  font-family: "ALK Life", sans-serif;
+}
+.georgian-relative1 {
+  font-family: "ALK Tall Nusxuri";
+  font-size: 30px;
+}
+.latin-absolute {
+  font-family: 'WindSong', cursive;
+}
+.latin-relative {
+  font-family: 'MonteCarlo';
+}
